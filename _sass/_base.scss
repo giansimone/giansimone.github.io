@@ -40,7 +40,6 @@ p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .bg-primary {
@@ -54,6 +53,10 @@ p {
 
 .text-faded {
     color: rgba(white, .7);
+    text-align: center;
+    p {
+        text-align: justify;
+    }
 }
 
 section {
