@@ -1,6 +1,6 @@
 # Site settings
 title: Giansimone Perrino
-email: g.perrino(at)imperial.ac.uk
+email: g.perrino@imperial.ac.uk
 description: > #
 domain: giansimone.github.io
 baseurl: "" # the subpath of your site, e.g. /blog/
