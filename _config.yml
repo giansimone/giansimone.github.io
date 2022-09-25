@@ -6,6 +6,7 @@ domain: giansimone.github.io
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://giansimone.github.io
 
+linkedin_username: giansimone
 twitter_username: GiansPerrino
 github_username: giansimone
 
