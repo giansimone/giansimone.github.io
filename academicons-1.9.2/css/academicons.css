@@ -7,7 +7,7 @@
 @font-face {
     font-family: 'Academicons';
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-display: block;
     src:url('../fonts/academicons.eot');
     src:url('../fonts/academicons.eot') format('embedded-opentype'),
@@ -17,7 +17,7 @@
 }
 .ai {
   font-family: 'Academicons';
-  font-weight: 400;
+  font-weight: normal;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -25,6 +25,63 @@
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
+}
+/* makes the font 33% larger relative to the icon container */
+.ai-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.ai-2x {
+  font-size: 2em;
+}
+.ai-3x {
+  font-size: 3em;
+}
+.ai-4x {
+  font-size: 4em;
+}
+.ai-5x {
+  font-size: 5em;
+}
+.ai-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.ai-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.ai-ul > li {
+  position: relative;
+}
+.ai-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.ai-li.ai-lg {
+  left: -1.85714286em;
+}
+.ai-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.ai.pull-left {
+  margin-right: .3em;
+}
+.ai.pull-right {
+  margin-left: .3em;
 }
 .ai-academia:before {
   content: "\e9af";
