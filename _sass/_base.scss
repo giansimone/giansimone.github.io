@@ -372,11 +372,11 @@ body {
     height: 250px;
     border-radius: 50%;
     overflow: hidden;
-    background-color: blue;
-    display:inline-block;
-    vertical-align:middle;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 25px;
 }
 
 .circular_image img{
-    width:100%;
+    width: 100%;
 }
