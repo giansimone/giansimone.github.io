@@ -2,9 +2,9 @@
 title: Giansimone Perrino
 email: giansimone@gmail.com
 description: > #
-domain: giansimone.github.io
+domain: giansimone.dev
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://giansimone.github.io
+url: https://giansimone.dev
 
 linkedin_username: giansimone
 twitter_username: GiansPerrino
