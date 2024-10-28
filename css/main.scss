@@ -1,6 +1,3 @@
----
----
-
 @charset "utf-8";
 
 // variables.less
@@ -11,20 +8,35 @@ $theme-dark: #2e2b2b;
         display: none;
         position: fixed;
         bottom: 20px;
-        right: 30px;
+        right: 20px;
         z-index: 99;
         border: none;
         outline: none;
-        background-color: #4CAF50;
+        background-color: #01CCB7;
         color: white;
         cursor: pointer;
-        padding: 15px;
-        border-radius: 50%;
-        font-size: 18px;
+        padding: 20px;
+        border-radius: 20px;
 }
-      
+
+#top-button::after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 9px solid #FFFB00;
+}
+
 #top-button:hover {
-        background-color: #333;
+        background-color: #FFFB00; /* Add a dark-grey background on hover */
+}
+
+#top-button:hover::after {
+        border-bottom: 9px solid #333333;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
