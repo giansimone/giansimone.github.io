@@ -1,10 +1,10 @@
 # Site settings
 title: Giansimone Perrino
-email: giansimone@gmail.com
+email: hello@giansimone.com
 description: > #
-domain: giansimone.dev
+domain: giansimone.com
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://giansimone.dev
+url: https://giansimone.com
 
 linkedin_username: giansimone
 twitter_username: GiansPerrino
